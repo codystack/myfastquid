@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9d7a0;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-1" x="-7" y="-14" width="214" height="224"/>
+  <image id="x-lg" x="66" y="66" width="67" height="67" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAABn0lEQVR4nO2cW6qDQBBEa0tZhy4oe/E7e8jS8mc+7AIj92Z8zEw/0gcGAgpWHcToiAMs3ABMAB4ARvwGI5a+E5b+gPx4AZhX466RriN3fPZ9QYRMmw3RhWxFcEzAcqr8tTGikP9EzFg8YPyyQyQh30TMWF0rSzt6F3K4X1Qhp3tFE3K5TxQh1Xp4F1I9v1chzXJ7E9I8rxch3XJaF9I9n1UharmsCVHPox7AWA71INrHNxPInAitYGZFkF4BzYsgrYO6EUFaBXYngtQO7lYEqVXAvQhytUgYEeRsoXAiyNFiYUWQvQXDiyClos/C9jAiSEnIz4ggR4WEFUH2CgkvgpSuEU+9aH3JM0PIa4aQ/yZC3mcIeQcq5LOJkE+tQs5nCDnTJeQcqJCz40K+NxHyjZqQ71qVg5kToh1I+/jmgqjnUA9gJY81EWq5rIog3fJZF0Ga5/QigjTL600EqZ7bqwhSLb93EeRyjygiyOk+0USQw72iiiC7+w17d3ROScgA5LfwHA8gV0ngmIBcP2PGav0M4HNllUEjnQIDNiurvAEyXtN5va4UIgAAAABJRU5ErkJggg=="/>
+</svg>
