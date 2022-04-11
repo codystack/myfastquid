@@ -30828,3 +30828,10 @@ a.fc-event:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.signup-bg {
+    background-image: url(../images/signupbg.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
