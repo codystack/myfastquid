@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-import OtpInput from 'react-otp-input';
+import { Link } from 'react-router-dom'
+import OtpInput from 'react-otp-input'
 
-export default class componentName extends Component {
+export default class Verify extends Component {
 
     state = { otp: "" };
 
