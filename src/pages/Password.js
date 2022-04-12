@@ -22,7 +22,7 @@ function Password() {
                                             <span className="form-group"><input type="email" className="form-control" placeholder="E-mail" /></span>
                                         </div>
                                         <div className="row align-items-center g-0 m-0">
-                                            <div className="col-6"><button className="btn btn-dark">Recover your Password</button></div>
+                                            <div className="col-6"><button className="btn btn-dark">Send Password Reset</button></div>
                                         </div>
                                     </div>
                                 </div>

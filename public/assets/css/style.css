@@ -30835,3 +30835,10 @@ a.fc-event:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.verify-bg {
+    background-image: url(../images/verifybg.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

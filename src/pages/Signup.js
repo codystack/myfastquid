@@ -15,23 +15,63 @@ function Signup() {
                         <div className="row h-100">
                             <div className="col-12 col-md-10 col-lg-6 text-start mx-auto d-flex align-items-center">
                                 <div className="w-100">
-                                    <h2 className='display-6'>Sign into your account!</h2>
-                                    <h5 className="fw-light">Securely login to your FastQuid.</h5>
-                                    <div className="form mt-4 ">
-                                        <div className="mb-3">
-                                            <p className="text-start mb-2">Email address</p>
+                                    <h2 className='display-6'>Let’s get you started!</h2>
+                                    <h5 className="fw-light">Hey there, let’s set up your FastQuid account.</h5>
+                                    <div className="row mt-4 ">
+                                        <div className='col-md-6 mb-3'>
+                                            <p className="text-start mb-2">First Name</p>
+                                            <span className="form-group"><input type="text" className="form-control" placeholder="First Name" /></span>
+                                        </div>
+
+                                        <div className='col-md-6 mb-3'>
+                                            <p className="text-start mb-2">Middle Name</p>
+                                            <span className="form-group"><input type="text" className="form-control" placeholder="Middle Name" /></span>
+                                        </div>
+
+                                        <div className='col-md-6 mb-3'>
+                                            <p className="text-start mb-2">Last Name</p>
+                                            <span className="form-group"><input type="text" className="form-control" placeholder="Last Name" /></span>
+                                        </div>
+
+                                        <div className='col-md-6 mb-3'>
+                                            <p className="text-start mb-2">Date of Birth</p>
+                                            <span className="form-group"><input type="date" className="form-control" /></span>
+                                        </div>
+
+                                        <div className='col-md-6 mb-3'>
+                                            <p className="text-start mb-2">Email Address</p>
                                             <span className="form-group"><input type="email" className="form-control" placeholder="E-mail" /></span>
                                         </div>
-                                        <div className="mb-3">
-                                            <div className="d-flex justify-content-between align-items-center">
-                                            <p className="text-start mb-2">Password</p>
-                                            <Link to="/forgot-password" className="text-muted">Forgot password?</Link>
+
+                                        <div className='col-md-6 mb-3'>
+                                            <p className="text-start mb-2">Phone Number</p>
+                                            <span className="form-group"><input type="tel" className="form-control" placeholder="Phone Number" /></span>
+                                        </div>
+
+                                        <div className='col-md-12 mb-3'>
+                                            <p className="text-start mb-2">Residential Address</p>
+                                            <span className="form-group"><input type="text" className="form-control" placeholder="Residential Address" /></span>
+                                        </div>
+
+                                        <div className='col-md-6 mb-3'>
+                                            <div className="align-items-center">
+                                                <p className="text-start mb-2">Password</p>
                                             </div>
                                             <span className="form-group"><input type="password" className="form-control" placeholder="*********" /></span>
                                         </div>
+                                        <div className='col-md-6 mb-3'>
+                                            <div className="align-items-center">
+                                                <p className="text-start mb-2">Confirm Password</p>
+                                            </div>
+                                            <span className="form-group"><input type="password" className="form-control" placeholder="*********" /></span>
+                                        </div>
+                                        <div className="custom-control custom-checkbox me-sm-2 mb-4 d-flex">
+                                            <input type="checkbox" className="form-check-input mb-0" id="exampleCheck1" />
+                                            <label className="form-check-label ms-2" htmlFor="exampleCheck1">By signing up, you agree to the <Link to="/terms">terms of service</Link></label>
+                                        </div>
                                         <div className="row align-items-center g-0 m-0">
-                                            <div className="col-6 col-md-8"><span className="text-muted">Don't have an account? <Link to='sign-up'>Signup</Link></span></div>
-                                            <div className="col-6 col-md-4 text-end"><a href="overview" className="btn btn-dark" type="submit">Sign In</a></div>
+                                            <div className="col-6"><span className="text-dark">Got an account? <Link to='/' className='fw-semi-bold'>Sign in</Link></span></div>
+                                            <div className="col-6 text-end"><Link to='/verify-account' className="btn btn-dark ">Create Free Account</Link></div>
                                         </div>
                                     </div>
                                 </div>
