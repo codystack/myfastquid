@@ -1,55 +1,57 @@
-import React, { Component } from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-export default class Navbar extends Component {
-    render() {
-        return (
-            <div>
-                <nav className="navbar-vertical navbar">
-                    <div className="nav-scroller">
-                        {/* Brand logo */}
-                        <a className="navbar-brand" href="/">
-                            <img src="assets/images/logo.svg" alt="logo" width="40px" className="mx-1 pb-1" /><span style={{fontFamily: 'Recoleta', fontSize: '2rem', fontWeight: 600}}>FastQuid</span>
-                        </a>
-                        {/* Navbar nav */}
-                        <div className="position-relative top-30">
-                            <ul className="navbar-nav flex-column" id="sideNavbar">
-                                <li className="nav-item">
-                                    <a className="nav-link" href="overview">
+
+function Navbar() {
+    return (
+        <div>
+            <nav className="navbar-vertical navbar">
+                <div className="nav-scroller">
+                    {/* Brand logo */}
+                    <a className="navbar-brand" href="/">
+                        <img src="assets/images/logo.svg" alt="logo" width="40px" className="mx-1 pb-1" /><span style={{fontFamily: 'Recoleta', fontSize: '2rem', fontWeight: 600}}>FastQuid</span>
+                    </a>
+                    {/* Navbar nav */}
+                    <div className="position-relative top-30">
+                        <ul className="navbar-nav flex-column" id="sideNavbar">
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to='/overview'>
                                     <i className="nav-icon bi bi-columns-gap me-2" /> Overview
-                                    </a>
-                                </li>
-                                <li className="nav-item mt-3">
-                                    <a className="nav-link" href="wallet">
-                                    <i className="nav-icon bi bi-wallet2 me-2" /> Wallet
-                                    </a>
-                                </li>
-                                <li className="nav-item mt-3">
-                                    <a className="nav-link" href="loan">
+                                </NavLink>
+                            </li>
+                            <li className="nav-item mt-3">
+                                <NavLink className="nav-link" to='/loan'>
                                     <i className="nav-cion bi bi-cash-coin me-2" /> Loan
-                                    </a>
-                                </li>
-                                <li className="nav-item mt-3">
-                                    <a className="nav-link" href="transactions">
+                                </NavLink>
+                            </li>
+                            <li className="nav-item mt-3">
+                                <NavLink className="nav-link" to='/transactions'>
                                     <i className="nav-icon bi bi-arrow-down-up me-2" /> Transactions
-                                    </a>
-                                </li>
-                                <li className="nav-item mt-3">
-                                    <a className="nav-link" href="profile">
-                                    <i className="nav-icon bi bi-gear me-2" /> Profile
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <div className="nav-divider" />
-                                </li>
-                            </ul>
-                            <div className="mt-4 text-center">
-                                <a href="./" className="btn btn-white btn-lg mt-2">
-                                <i className="nav-icon bi bi-box-arrow-left me-2" /> Log Out</a>
-                            </div>
+                                </NavLink>
+                            </li>
+                            <li className="nav-item mt-3">
+                                <NavLink className="nav-link" to='/profile'>
+                                    <i className="nav-icon bi bi-person me-2" /> Profile
+                                </NavLink>
+                            </li>
+                            <li className="nav-item mt-3">
+                                <NavLink className="nav-link" to='/support'>
+                                    <i className="nav-icon bi bi-chat-right-dots me-2" /> Support
+                                </NavLink>
+                            </li>
+                            {/* <li className="nav-item">
+                                <div className="nav-divider" />
+                            </li> */}
+                        </ul>
+                        <div className="mt-p text-center">
+                            <NavLink to='/' className="btn btn-white mt-2">
+                                <i className="nav-icon bi bi-box-arrow-left me-2" /> Log Out
+                            </NavLink>
                         </div>
                     </div>
-                </nav>
-            </div>
-        )
-    }
+                </div>
+            </nav>
+        </div>
+    )
 }
+export default Navbar

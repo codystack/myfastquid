@@ -2803,7 +2803,7 @@ progress {
 
 .table>:not(caption)>*>* {
     /* background-color: var(--bs-table-bg); */
-    border-bottom-width: 1px;
+    border-bottom-width: 0px;
     box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
     padding: .75rem 1.5rem
 }
@@ -5830,7 +5830,7 @@ fieldset:disabled .btn {
 
 .btn-group-lg>.btn,
 .btn-lg {
-    border-radius: 0rem;
+    border-radius: .25rem;
     font-size: 1.09375rem;
     padding: .75rem 1.25rem
 }
@@ -11041,6 +11041,11 @@ fieldset:disabled .btn {
 .mt-auto {
     margin-top: auto !important
 }
+
+.mt-p {
+    margin-top: 65% !important
+}
+
 
 .me-0 {
     margin-right: 0 !important
