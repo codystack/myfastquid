@@ -89,7 +89,7 @@ function Loaninfo() {
                     </div>
 
                     <div className='text-center mt-4'>
-                        <button className='btn btn-dark btn-lg'>Repay Loan</button>
+                        <button className='btn btn-dark-primary btn-lg'>Repay Loan</button>
                     </div>
                 </div>
             </div>

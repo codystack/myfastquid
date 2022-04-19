@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar';
 import Topbar from '../../components/Topbar';
 
-function Support() {
+function Bank() {
   return (
     <div id="db-wrapper">
       <Navbar />
@@ -12,26 +12,31 @@ function Support() {
         </div>
 
         <div className='container-fluid'>
-          <div className="pb-5 py-md-12 pt-xs-9">
+          <div className="pb-5 py-md-6 pt-xs-9">
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
-                  <div className="col-lg-9 col-md-9 col-12 mx-auto">
+                  <div className="col-lg-12 col-md-12 col-12 mx-auto">
                     {/* Card */}
                     <div className="card">
                       {/* Card body */}
                       <div className="card-body">
                         <div className="pb-5 pt-5 row">
-                          <div className="col-12 col-md-3 col-sm-6 mb-2">
-                            <h4>FastQuid Support</h4>
-                            <p>Talk to us about your complaint</p>
+                          <div className="col-12 col-md-4 col-sm-6 mb-2">
+                            <h1 className='display-6'>Add bank account</h1>
+                            <p>Disbursed funds are paid into your bank account.</p>
                           </div>
-                          <div className="col-12 col-sm-6 col-md-9">
+                          <div className="col-12 col-sm-6 col-md-8">
                             <form>
+
+                                <div className="form-floating mb-4 col-lg-8">
+                                    <input type="text" className="form-control" id="floatingInput" placeholder="0004274101" />
+                                    <label htmlFor="floatingInput">Recipient Account Number</label>
+                                </div>
                               
-                              <div className="form-floating mb-4 col">
-                                <select className="form-select" id="floatingSelect" aria-label="Subject">
-                                  <option selected>Select Subject</option>
+                              <div className="form-floating mb-4 col-lg-8">
+                                <select className="form-select" id="floatingSelect" aria-label="Bank">
+                                  <option selected>Select Bank</option>
                                   <option value="Loan">Loan</option>
                                   <option value="Disbursement">Disbursement</option>
                                   <option value="Loan Repayment">Loan Repayment</option>
@@ -43,19 +48,10 @@ function Support() {
                                 </select>
                                 <label htmlFor="floatingSelect">Subject</label>
                               </div>
-                              
-                              <div className="form-floating mb-4 col">
-                                <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{height: '100px'}} defaultValue={""} />
-                                <label htmlFor="floatingTextarea2">Tell us about your issue</label>
-                              </div>
 
                               <div className="col-12">
                                 <button className="btn btn-dark-primary" type="submit">
-                                    Submit complaint
-                                </button>
-
-                                <button className="btn btn-outline-dark-primary ms-3" type="reset">
-                                    Reset
+                                    Add Bank
                                 </button>
                               </div>
                             </form>
@@ -74,4 +70,4 @@ function Support() {
   )
 }
 
-export default Support
+export default Bank
