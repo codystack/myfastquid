@@ -6,8 +6,7 @@ import Topbar from '../../components/Topbar';
 export default class Profile extends Component {
     render() {
         return (
-            <div>
-                <div id="db-wrapper">
+            <div id="db-wrapper">
                     <Navbar />
                     <div id="page-content">
                         <div className="header">
@@ -252,7 +251,6 @@ export default class Profile extends Component {
                     </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }

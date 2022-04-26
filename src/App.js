@@ -10,6 +10,7 @@ import Loan from './pages/dashboard/Loan';
 import Cominsoon from './pages/dashboard/Cominsoon';
 import Support from './pages/dashboard/Support';
 import Bank from './pages/dashboard/Bank';
+import RequestLoan from './pages/dashboard/RequestLoan';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/coming-soon' element={<Cominsoon />} />
           <Route path='/support' element={<Support />} />
           <Route path='/add-account' element={<Bank />} />
+          <Route path='/loan-request' element={<RequestLoan />} />
         </Routes>
       </BrowserRouter>
     </div>

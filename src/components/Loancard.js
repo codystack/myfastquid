@@ -34,7 +34,7 @@ function Loancard() {
                     }
                     </div>
                     <div className="mb-0 mt-6 col-md-3 col-12">
-                        <Link to='' className="btn btn-dark-primary"><i className="bi bi-plus-lg" /> Apply for a Loan</Link>
+                        <Link to='/loan-request' className="btn btn-dark-primary"><i className="bi bi-plus-lg" /> Apply for a Loan</Link>
                     </div>
                 </div>
             </div>
