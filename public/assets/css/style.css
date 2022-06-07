@@ -6,6 +6,16 @@
     width: 1.5rem
 }
 
+@font-face {
+    font-family: 'Recoleta';
+    src: local('Recoleta Alt Bold'), local('Recoleta-Alt-Bold'),
+    url('../fonts/RecoletaAlt-Bold.woff2') format('woff2'),
+    url('../fonts/RecoletaAlt-Bold.woff') format('woff'),
+    url('../fonts/RecoletaAlt-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 .icon-sm {
     height: 2rem;
     line-height: 2rem;
@@ -30968,4 +30978,10 @@ a.fc-event:hover {
 .bankcarddelete {
     border-radius: 100% !important;
     padding: 3%;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
 }
